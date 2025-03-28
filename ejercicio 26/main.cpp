@@ -2,7 +2,7 @@
 
 struct Contenedor
     {
-		char iden;
+	char iden;
     	int peso;
     	int puerto;
     };
@@ -48,7 +48,6 @@ int main() {
 	   }
     }
    
-    //printf("\n %c
     printf("\nEl peso total que el buque debe trasladar es: %d",pesoTotal);
     printf("\nEl contenedor mas pesado es: %c",contenedores[identificacionMayor].iden);
     printf("\nCantidad de contenedores a trasladar al puerto 1: %d",puerto1);
